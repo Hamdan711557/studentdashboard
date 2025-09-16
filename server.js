@@ -273,4 +273,4 @@ app.get("/health/detailed", (req, res) => {
     environment: process.env.NODE_ENV || "development",
   });
 });
-app.exports = app;
+module.exports = app;
